@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jafe.iml" filepath="$PROJECT_DIR$/jafe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jafe_back/jafe_back.iml" filepath="$PROJECT_DIR$/jafe_back/jafe_back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jafe_comm/jafe_comm.iml" filepath="$PROJECT_DIR$/jafe_comm/jafe_comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jafe_front/jafe_front.iml" filepath="$PROJECT_DIR$/jafe_front/jafe_front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jafe_interface/jafe_interface.iml" filepath="$PROJECT_DIR$/jafe_interface/jafe_interface.iml" />
+    </modules>
+  </component>
+</project>
