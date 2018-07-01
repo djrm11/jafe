@@ -24,6 +24,7 @@
 #hs_err_pid*
 #original annotation end
 
+#new info start
 *.class
 
 #package files
@@ -57,3 +58,5 @@ target/
 #system ignore
 .DS_Store
 Thumbs.db
+
+#new info end
