@@ -36,7 +36,7 @@ public class AnywayTest {
 //		System.out.println(getDateSpace("20170926", "20170615"));
 //		System.out.println(Calendar.getInstance());
 		System.out.println(new SimpleDateFormat("yyyyMMdd").format(new Date()));	
-		System.out.println(new SimpleDateFormat("yyyyMMdd").parse("@0000000"));
+		System.out.println(new SimpleDateFormat("yyyyMMdd").parse("20180702"));
 //		System.out.println("^\\d{8}".matches("20160201"));
 		System.out.println("20160201".matches("^\\d{8}"));
 		List<String> list = new ArrayList<String>();
