@@ -22,7 +22,7 @@ public class BlockingQueueTest extends Thread {
 		}
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws InterruptedException {
 		ExecutorService service = Executors.newCachedThreadPool();
 		for (int i = 0; i < 10; i++) {
 			service.submit(new BlockingQueueTest(i));
@@ -44,5 +44,13 @@ public class BlockingQueueTest extends Thread {
 		};
 		service.submit(thread);
 		service.shutdown();
+		while(true){
+			if(service.isTerminated()){
+//				logger.info("CmtPointGetDetailFromCommentJob.doCmtCommentToPointDetail, run page: "+ page+" end. In total page: " +500);
+				System.out.println("wait a moment!");
+				break;
+			}
+			Thread.sleep(1000);
+		}
 	}
 }
