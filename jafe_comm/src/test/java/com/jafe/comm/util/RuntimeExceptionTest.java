@@ -1,9 +1,11 @@
+package com.jafe.comm.util;
+
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.poi.util.SystemOutLogger;
-
-import com.alibaba.druid.pool.vendor.SybaseExceptionSorter;
+//import org.apache.poi.util.SystemOutLogger;
+//
+//import com.alibaba.druid.pool.vendor.SybaseExceptionSorter;
 
 class RuntimeExceptionTestInner extends RuntimeException {
 	private static final long serialVersionUID = 6908889080356626754L;

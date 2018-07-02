@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import static java.util.concurrent.TimeUnit.SECONDS;
 
 import java.util.Date;

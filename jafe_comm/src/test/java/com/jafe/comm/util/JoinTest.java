@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import java.util.Date;
 import java.util.concurrent.TimeUnit;  
   

@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Hashtable;

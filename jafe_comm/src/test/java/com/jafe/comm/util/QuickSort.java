@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import java.util.Arrays;
 
 /** 接口参数校验

@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletionService;
 import java.util.concurrent.ExecutorCompletionService;

@@ -1,3 +1,5 @@
+package com.jafe.comm.util;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
