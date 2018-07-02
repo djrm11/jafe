@@ -17,11 +17,14 @@ public class BubbleSort  {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
+
             }
+            System.out.println(Arrays.toString(arr));
         }
     }
     public static void main(String[] args) {
-        int arr[] = new int[]{1,6,2,2,5};
+//        int arr[] = new int[]{1,6,2,2,5};
+        int arr[] = new int[]{1,7,9,6,5};
         BubbleSort.bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }

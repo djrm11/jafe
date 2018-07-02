@@ -41,5 +41,14 @@ public class CallableTest {
 		System.out.println(obj);
 		// 关闭线程池
 		exec.shutdown();
+
+		while(true){
+			if(exec.isTerminated()){
+//				logger.info("CmtPointGetDetailFromCommentJob.doCmtCommentToPointDetail, run page: "+ page+" end. In total page: " +500);
+				System.out.println("wait for ExecutorService end!");
+				break;
+			}
+			Thread.sleep(500);
+		}
 	}
 }
