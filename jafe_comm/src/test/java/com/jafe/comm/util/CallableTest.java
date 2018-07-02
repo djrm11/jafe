@@ -17,14 +17,20 @@ public class CallableTest {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		final ExecutorService exec = Executors.newFixedThreadPool(5);
-		Callable<String> call = new Callable<String>() {
-			public String call() throws Exception {
+//		Callable<String> call = new Callable<String>() {
+//			public String call() throws Exception {
+//				System.out.println("Callable.call() start...");
+//				Thread.sleep(1000 * 10);// 休眠指定的时间，此处表示该操作比较耗时
+//				System.out.println("Callable.call() end...");
+//				return "Other less important but longtime things.";
+//			}
+//		};
+        Callable<String> call = ()-> {
 				System.out.println("Callable.call() start...");
 				Thread.sleep(1000 * 10);// 休眠指定的时间，此处表示该操作比较耗时
-				System.out.println("Callable.call() end...");				
+				System.out.println("Callable.call() end...");
 				return "Other less important but longtime things.";
-			}
-		};
+        };
 		Future<String> task = exec.submit(call);
 		// 重要的事情
 		System.out.println("Let's do important things. start");
