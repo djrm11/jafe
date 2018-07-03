@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * 
+ *
  * @author yzf
  * @since 2017年5月26日
  * @remark
