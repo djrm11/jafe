@@ -59,6 +59,15 @@ public class DoubleTest {
 		double v19 = Math.round(v16 * v17)/v17;
 		System.out.println(v19);
 
+		System.out.println(Math.round(11.5));
+		System.out.println(Math.round(-11.5));
+
+
+		System.out.println(Math.ceil(11.3));
+		System.out.println(Math.ceil(-11.3));
+
+		System.out.println(Math.floor(11.6));
+		System.out.println(Math.floor(-11.6));
 
 //		System.out.println(Math.round(value*100)/100.0);
 	}
