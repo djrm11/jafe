@@ -13,6 +13,7 @@
         <module>jafe_back</module>
         <module>jafe_front</module>
         <module>jafe_comm</module>
+        <module>jafe_dist</module>
     </modules>
 
 
