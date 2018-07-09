@@ -44,7 +44,7 @@ target/
 .idea/
 /idea/
 *.ipr
-*.iml
+#*.iml zf thinks this is useful,so he annotions it.
 *.iws
 
 # temp file
