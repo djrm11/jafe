@@ -54,7 +54,7 @@ target/
 *.diff
 *.patch
 *.tmp
-
+*.iml
 #system ignore
 .DS_Store
 Thumbs.db
