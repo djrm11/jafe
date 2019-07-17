@@ -44,7 +44,7 @@ target/
 .idea/
 /idea/
 *.ipr
-#*.iml zf thinks this is useful,so he annotions it.
+*.iml #zf thinks this is useful,so he annotions it.
 *.iws
 
 # temp file
@@ -54,7 +54,6 @@ target/
 *.diff
 *.patch
 *.tmp
-*.iml
 #system ignore
 .DS_Store
 Thumbs.db
